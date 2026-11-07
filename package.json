@@ -1,0 +1,20 @@
+{
+  "name": "property-job-visibility-radar",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/maintenance-radar.ts",
+    "register:inspection": "tsx src/inspection-reminder.ts",
+    "test": "tsx --test test/maintenance-radar.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
