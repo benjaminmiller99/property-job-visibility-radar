@@ -71,3 +71,7 @@ The code is intentionally small. Before you ship it, set up the pieces below for
 **Property Job Visibility Radar: Scheduled / background work**
 - **Property Job Visibility Radar:** Server-side jobs keep running and **consuming credit** — monitor `GET /v1/account/usage` and set an auto-recharge threshold.
 - **Property Job Visibility Radar:** Make handlers idempotent and use the queue's ack/retry so a redelivery does not double-process.
+
+## Further reading
+
+- [Express Node.js Support Experiments: Exception Capture and Polling Alerts Across Cohorts](docs/express-node-js-support-experiments-exception-cap-10e6uj.md)
